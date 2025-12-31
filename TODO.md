@@ -1,0 +1,6 @@
+- [x] Update Login.jsx to use react-hook-form with zod validation schema (email, password with min 7 chars, numbers, special chars, phone)
+- [x] Fix Firebase signIn call in Login.jsx to use data.email and data.password
+- [x] Update Register.jsx to use react-hook-form with zod validation schema (email, password with min 7 chars, numbers, special chars, phone)
+- [x] Fix Firebase createUser call in Register.jsx to use data.email and data.password
+- [x] Ensure animations (animate-fade-in, animate-slide-up, animate-pulse) are retained
+- [x] Test the forms for validation and Firebase connectivity (dev server running without errors)
