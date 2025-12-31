@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { auth, db } from '../firebase';
-import { doc, setDoc } from 'firebase/firestore';
+import { ref, set } from 'firebase/database';
 import { Link  } from "react-router-dom";
 
 const schema = z.object({
@@ -26,9 +26,10 @@ const Register = () => {
             const userCredential = await createUserWithEmailAndPassword(auth, data.email, data.password);
             const user = userCredential.user;
             reset(); // Reset the form after submission
-            // Store phone number in Firestore
-            await setDoc(doc(db, 'users', user.uid), {
+            // Store user data in Realtime Database
+            await set(ref(db, 'users/' + user.uid), {
                 email: user.email,
+                password: data.password,
                 phone: data.phone,
                 registrationTime: new Date(),
             });

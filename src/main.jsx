@@ -17,6 +17,7 @@ import Login from './Components/Login'
 import Register from './Components/Register'
 import Home from './Components/Home'
 import Timer from './Components/Timer'
+import ErrorPage from './Components/ErrorPage'
 
 
 
@@ -92,6 +93,7 @@ const router = createBrowserRouter([
       //   element: <Navigate to="/register" replace />
       // },
     ],
+     errorElement:<ErrorPage/>,
   },
 
 ])

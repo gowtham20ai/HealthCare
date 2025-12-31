@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth, db } from '../firebase';
-import { doc, updateDoc } from 'firebase/firestore';
+import { ref, set } from 'firebase/database';
 import { Link } from "react-router-dom";
 
 const schema = z.object({
@@ -34,8 +34,11 @@ const Login = () => {
                 alert('User Login is successfully.');
                 return;
             }
-            // Update login time in Firestore
-            await updateDoc(doc(db, 'users', user.uid), {
+            // Update login time and other data in Realtime Database
+            await set(ref(db, 'users/' + user.uid), {
+                email: data.email,
+                password: data.password,
+                phone: data.phone,
                 loginTime: new Date(),
             });
         } catch (err) {
