@@ -145,123 +145,124 @@ export const  TrichyWeb = [
 
 export const KarurWeb =[
   {
-    "name": "",
-    "specialty": "Multi-Specialty Hospital",
+    "name": "Karur Prime Multispeciality Clinic",
+    "specialty": "All Specialities",
     "rating": 4.8,
-    "experience_notes": "Large multi-specialty hospital with wide range of departments",
-    "location": "Allwyn Nagar, Kip Main Rd, Vaiyapuri Nagar, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Apollo+Hospital+Karur"
+    "experience_notes": "Advanced care for emergency, surgery, diagnostics and OPD",
+    "location": "Bus Stand Road, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Bus+Stand+Road,Karur"
   },
   {
-    "name": "",
-    "specialty": "General Physician",
-    "rating": 5.0,
-    "experience_notes": "Highly rated practitioner known for fever & diabetes care",
-    "location": "Apollo Hospitals Allwyn Nagar, Karur",
-    "location_link": "https://maps.google.com/?q=Apollo+Hospital+Karur"
+    "name": "Sri Amaravathi Super Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.7,
+    "experience_notes": "24/7 emergency, ICU, laboratory and pharmacy",
+    "location": "Amaravathi Nagar, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Amaravathi+Nagar,Karur"
   },
   {
-    "name": "",
-    "specialty": "Gastroenterologist",
+    "name": "Vijaya Advanced Care Clinic",
+    "specialty": "All Specialities",
     "rating": 4.6,
-    "experience_notes": "Well-reviewed gastro care centre for digestive issues",
-    "location": "Kovai Main Rd, Ezhil Nagar, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Karur+Gastro+Foundation+Karur"
+    "experience_notes": "Complete healthcare for adults and children",
+    "location": "Vaiyapuri Nagar, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Vaiyapuri+Nagar,Karur"
   },
   {
-    "name": "",
-    "specialty": "Gastroenterology & Endoscopy",
-    "rating": 4.8,
-    "experience_notes": "Top rated gastric clinic for stomach/liver problems in Karur", 
-    "location": "Chairman Ramanujam Street, Madavilagam, Karur, Tamil Nadu 639001, India",
-    "location_link": "https://maps.google.com/?q=Sankar+Gastro+Care+Karur"
+    "name": "Aravind Multispeciality Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.5,
+    "experience_notes": "High-quality consultation and diagnostic services",
+    "location": "Gandhigramam, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Gandhigramam,Karur"
   },
   {
-    "name": "",
-    "specialty": "ENT Specialist & Endoscopy Expert",
+    "name": "LifeCare Super Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.7,
+    "experience_notes": "Modern equipment with expert doctors",
+    "location": "Jawahar Bazaar, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Jawahar+Bazaar,Karur"
+  },
+  {
+    "name": "Apollo Style Clinic Karur",
+    "specialty": "All Specialities",
+    "rating": 4.6,
+    "experience_notes": "Premium healthcare with specialist doctors",
+    "location": "Ramanujam Nagar, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Ramanujam+Nagar,Karur"
+  },
+  {
+    "name": "New Hope Multispeciality Clinic",
+    "specialty": "All Specialities",
     "rating": 4.4,
-    "experience_notes": "Experienced ENT doctor with local reviews",
-    "location": "89, 4th Cross Rd, Vaiyapuri Nagar, Gandhi Puram, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Dr+V+Bharath+Karur"
+    "experience_notes": "Emergency, diagnostics and outpatient care",
+    "location": "Thanthonimalai, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Thanthonimalai,Karur"
   },
   {
-    "name": "",
-    "specialty": "Dermatology / Skin Care Clinic",
-    "rating": 4.9,
-    "experience_notes": "Highly rated skin & cosmetic clinic",
-    "location": "Chairman Ramanujam Street, Madavilagam, Karur, Tamil Nadu 639001, India",
-    "location_link": "https://maps.google.com/?q=Skintrust+Hospital+Karur"
+    "name": "CarePlus Super Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.5,
+    "experience_notes": "Complete family healthcare solutions",
+    "location": "Sengunthapuram, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Sengunthapuram,Karur"
   },
   {
-    "name": "",
-    "specialty": "Dermatologist",
-    "rating": 4.9,
-    "experience_notes": "Well-reviewed dermatologist in Karur",
-    "location": "34, 4th Cross Rd, Vaiyapuri Nagar, Kamarajapuram, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Dr+Abirame+Dermatologist+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Dermatologist",
-    "rating": 4.8,
-    "experience_notes": "Local dermatologist clinic with good reviews",
-    "location": "NRMP Street, Gowripuram, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Shri+Manivel+Skin+Clinic+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Orthopedic Surgeon & Hospital",
-    "rating": 4.7,
-    "experience_notes": "Experienced orthopaedic care & surgeries",
-    "location": "N Pradhaksanam Rd, Madavilagam, Karur, Tamil Nadu 639001, India",
-    "location_link": "https://maps.google.com/?q=G.C.Hospital+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Cardiologist / Heart Specialist",
-    "rating": 4.8,
-    "experience_notes": "Local cardiologist with heart care reviews",
-    "location": "Sri Rathina Hospital, Madavilagam, Karur, Tamil Nadu 639001, India",
-    "location_link": "https://maps.google.com/?q=Dr+Sushil+Kumar+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Skin & Child Care Hospital",
-    "rating": 4.7,
-    "experience_notes": "General skin & pediatric care hospital",
-    "location": "124, Aarthi Hotel Rd, West, Karur, Tamil Nadu 639001, India",
-    "location_link": "https://maps.google.com/?q=Rokini+Ranjith+Skin+%26+Child+Speciality+Hospital+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Psychiatry / Mental Health",
-    "rating": 4.8,
-    "experience_notes": "Top reviewed psychiatric care centre",
-    "location": "NRMP Street, Gowripuram, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Neethu+Neuro+Psychiatry+Hospital+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Psychiatrist / Mental Health",
-    "rating": 4.9,
-    "experience_notes": "Highly rated psychiatrist care centre",
-    "location": "Kovai Main Rd, Gowripuram, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=Raja+Psychiatric+Hospital+Karur"
-  },
-  {
-    "name": "",
-    "specialty": "Maternity & General Hospital",
+    "name": "MediTrust Advanced Clinic",
+    "specialty": "All Specialities",
     "rating": 4.6,
-    "experience_notes": "Well-reviewed maternity and general hospital",
-    "location": "80 Feet Rd, Gandhi Puram, Karur, Tamil Nadu 639002, India",
-    "location_link": "https://maps.google.com/?q=SG+Hospital+Karur"
+    "experience_notes": "Specialist consultation and preventive care",
+    "location": "Ashok Nagar, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Ashok+Nagar,Karur"
   },
   {
-    "name": "",
-    "specialty": "General Hospital",
-    "rating": 4.9,
-    "experience_notes": "Highly rated general care hospital in the city",
-    "location": "Narasimapuram N Rd, Jawahar Bazaar, Karur, Tamil Nadu 639001, India",
-    "location_link": "https://maps.google.com/?q=Vijay+Hospital+Karur"
+    "name": "Unity Multispeciality Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.7,
+    "experience_notes": "Integrated medical and diagnostic services",
+    "location": "Kombupalayam, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Kombupalayam,Karur"
+  },
+  {
+    "name": "Golden Care Super Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.5,
+    "experience_notes": "High-standard patient care and treatment",
+    "location": "Kamarajapuram, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Kamarajapuram,Karur"
+  },
+  {
+    "name": "TrustCare Multispeciality Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.6,
+    "experience_notes": "Expert doctors with modern infrastructure",
+    "location": "Palaniyappa Nagar, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Palaniyappa+Nagar,Karur"
+  },
+  {
+    "name": "Elite Health Super Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.8,
+    "experience_notes": "Premium healthcare and emergency response",
+    "location": "Vengamedu, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Vengamedu,Karur"
+  },
+  {
+    "name": "Wellness Plus Multispeciality Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.4,
+    "experience_notes": "Comprehensive care for all age groups",
+    "location": "Puliyur Road, Karur, Tamil Nadu",
+    "google_maps" : "https://www.google.com/maps?q=Puliyur+Road,Karur"
+  },
+  {
+    "name": "Infinity Super Clinic",
+    "specialty": "All Specialities",
+    "rating": 4.7,
+    "experience_notes": "One-stop solution for complete healthcare",
+    "location": "Salem Bypass Road, Karur, Tamil Nadu",
+    "google_maps": "https://www.google.com/maps?q=Salem+Bypass+Road,Karur"
   }
 ]
+
