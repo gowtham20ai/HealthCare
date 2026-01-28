@@ -71,8 +71,6 @@ const Header = () => {
                   <li className=' '>Contact</li>
                 </a>
 
-                <input className='w-fit h-[50px] rounded-2xl rounded-bl-none border border-b-red-500 p-1  space-y-3 ' placeholder='search '
-                />
                 <Link to="/Login" >
 
                   <li className="bg-blue-600 w-fit px-3 py-1 rounded-xl text-white" >Login</li>
