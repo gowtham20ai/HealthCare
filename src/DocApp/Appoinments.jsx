@@ -31,7 +31,7 @@ const Appointments = () => {
 
     return (
         <>
-        <h1 className="p-2 ml-6 lg:ml-20 font-[Roboto] text-start text-2xl mt-20" >Only On Tiruchirappalli Soon We Will Updating...</h1>
+        <h1 className="p-2 ml-6 lg:ml-20 font-[Roboto] text-start text-2xl mt-20" >Available only in Tiruchirappalli. Stay tuned</h1>
         
         <div className="min-h-screen  flex items-center justify-center px-4 py-8">
             <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-6 md:p-8 animate-fade-in">

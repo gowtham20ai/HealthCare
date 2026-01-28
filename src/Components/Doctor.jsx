@@ -10,7 +10,7 @@ const Doctor = () => {
     <>
       <div className='2xl-container mx-auto '>
         <div className='  w-[95%] backdrop:md:w-[90%] mx-auto mt-8'>
-          <h1 className=' text-2xl font-[Roboto]'> Place of Visiting Doctor </h1>
+          <h1 className=' text-2xl font-[Roboto]'> Consultation Location </h1>
 
           <div className='mt-6'>
             <div className=' flex justify-around '>
