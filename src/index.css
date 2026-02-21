@@ -137,3 +137,41 @@ scroll-behavior: smooth;
 .animate-pulse-slow {
     animation: pulse-slow 2s ease-in-out infinite;
 }
+
+/* Nav item hover animations */
+.nav-item {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 50%;
+    background-color: currentColor;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+/* Mobile nav item hover animation */
+.mobile-nav-item {
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+.mobile-nav-item:hover {
+    transform: translateX(10px);
+    background-color: rgba(59, 130, 246, 0.2);
+}

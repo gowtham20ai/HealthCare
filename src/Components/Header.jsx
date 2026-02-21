@@ -50,30 +50,30 @@ const Header = () => {
 
                 <Link to="/" >
 
-                  <li className='text-blue-800 hover:text-xl hover:scroll-smooth' id="">Home</li></Link>
+                  <li className='text-blue-800 hover:text-xl hover:scroll-smooth nav-item' id="">Home</li></Link>
 
                 <Link to="/AIchat" >
 
-                  <li className='' >Al Health chatbot</li></Link>
+                  <li className='nav-item' >Al Health chatbot</li></Link>
 
 
                 <Link to="/Appoinments" >
 
-                  <li className=' '>Doctor Appoinments </li>
+                  <li className='nav-item'>Doctor Appoinments </li>
                 </Link>
 
                 <a href="#Web" >
 
-                  <li className=' ' >webiste Records</li>
+                  <li className='nav-item' >webiste Records</li>
                 </a>
 
                 <a href="mailto:gowthamtkd80@gmail.com"  >
-                  <li className=' '>Contact</li>
+                  <li className='nav-item'>Contact</li>
                 </a>
 
                 <Link to="/Login" >
 
-                  <li className="bg-blue-600 w-fit px-3 py-1 rounded-xl text-white" >Login</li>
+                  <li className="bg-blue-600 w-fit px-3 py-1 rounded-xl text-white nav-item" >Login</li>
                 </Link>
 
 
@@ -91,28 +91,28 @@ const Header = () => {
               {isopen && (
                 <ul className='  bg-slate-200 text-xl  flex flex-col   items-start  w-[90%] h-screen p-12 gap-6 mt-12  '>
                   <Link to="/"  >
-                    <li className='  lg:text-blue-800 hover:text-xl scroll-smooth ml-3' onClick={() => setIsopen(false)}>Home</li></Link>
+                    <li className='lg:text-blue-800 hover:text-xl scroll-smooth ml-3 mobile-nav-item' onClick={() => setIsopen(false)}>Home</li></Link>
                   <Link to="/AIchat"  >
 
-                    <li className='hover:text-xl hover:bg-slate-400 p-2 rounded-lg '  onClick={() => setIsopen(false)} >Al Health chatbot</li></Link>
+                    <li className='hover:text-xl hover:bg-slate-400 p-2 rounded-lg mobile-nav-item'  onClick={() => setIsopen(false)} >Al Health chatbot</li></Link>
 
                   <Link to="/Appoinments"  >
-                    <li className='hover:text-xl hover:bg-slate-400 p-2 rounded-lg '   onClick={() => setIsopen(false)}  >Doctor Appoinments</li></Link>
+                    <li className='hover:text-xl hover:bg-slate-400 p-2 rounded-lg mobile-nav-item'   onClick={() => setIsopen(false)}  >Doctor Appoinments</li></Link>
 
 
                   <a href="#Web"  >
 
-                    <li className='hover:text-xl hover:bg-slate-400 p-2 rounded-lg '  onClick={() => setIsopen(false)}   >webiste Records </li></a>
+                    <li className='hover:text-xl hover:bg-slate-400 p-2 rounded-lg mobile-nav-item'  onClick={() => setIsopen(false)}   >webiste Records </li></a>
 
 
                    <a href="mailto:gowthamtkd80@gmail.com"  >
-                    <li className='hover:text-xl hover:bg-slate-400  p-2 rounded-lg '    onClick={() => setIsopen(false)}     >contact</li></a>
+                    <li className='hover:text-xl hover:bg-slate-400  p-2 rounded-lg mobile-nav-item'    onClick={() => setIsopen(false)}     >contact</li></a>
 
 
                   <Link to="/Login"  >
 
 
-                    <li className='hover:text-xl hover:bg-slate-400  p-2 rounded-lg '   onClick={() => setIsopen(false)}    >Login</li></Link>
+                    <li className='hover:text-xl hover:bg-slate-400  p-2 rounded-lg mobile-nav-item'   onClick={() => setIsopen(false)}    >Login</li></Link>
 
                 </ul>
               )}
