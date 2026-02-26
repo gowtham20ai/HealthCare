@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import PaymentQR from "./PaymentQR";
 
@@ -10,8 +8,17 @@ const Appointments = () => {
         phone: "",
         name: "",
         hospitalName: "",
+        time: "",
 
     });
+
+    // Time slot options - even/uniform labels
+    const timeSlots = [
+        { id: "9:00 AM", label: "9:00 AM" },
+        { id: "11:00 AM", label: "11:00 AM" },
+        { id: "2:00 PM", label: "2:00 PM" },
+        { id: "4:00 PM", label: "4:00 PM" },
+    ];
 
     const [showPayment, setShowPayment] = React.useState(false);
 
@@ -22,7 +29,7 @@ const Appointments = () => {
 
     const handlePaymentSuccess = () => {
         alert("Appointment booked! Confirmation sent to email & WhatsApp ✅");
-        setFormData({ date: "", email: "", phone: "", name: "", hospitalName: "" });
+        setFormData({ date: "", email: "", phone: "", name: "", hospitalName: "", time: "" });
         setShowPayment(false);
     };
 
@@ -96,6 +103,26 @@ const Appointments = () => {
                             className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200"
                         />
 
+                        {/* Time Slot Selection */}
+                        <div>
+                            <label className="block text-gray-700 font-medium mb-2"></label>
+                            <select
+                                value={formData.time}
+                                onChange={(e) =>
+                                    setFormData({ ...formData, time: e.target.value })
+                                }
+                                required
+                                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 bg-white"
+                            >
+                                <option value="" className="text-opacity-65" disabled>Choose a time</option>
+                                {timeSlots.map((slot) => (
+                                    <option key={slot.id} value={slot.id}>
+                                        {slot.label}
+                                    </option>
+                                ))}
+                            </select>
+                        </div>
+
                         <button className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition duration-200 transform hover:scale-105">
                             Continue to Payment
                         </button>
@@ -114,30 +141,3 @@ const Appointments = () => {
 };
 
 export default Appointments;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,13 +5,14 @@ import emailjs from '@emailjs/browser';
 const PaymentQR = ({ appointment, amount, onSuccess }) => {
     // Generate a sample UPI payment URL (customize for your provider, e.g., Razorpay or Paytm)
     // Format: upi://pay?pa=merchant@upi&pn=MerchantName&am=amount&cu=INR&tn=Appointment Booking
-    const upiUrl = `upi://pay?pa=your-merchant@upi&pn=YourService&am=${amount}&cu=INR&tn=Appointment for ${appointment.name} on ${appointment.date}`;
+    const upiUrl = `upi://pay?pa=your-merchant@upi&pn=YourService&am=${amount}&cu=INR&tn=Appointment for ${appointment.name} on ${appointment.date} at ${appointment.time}`;
 
     const sendEmail = () => {
         const templateParams = {
             to_email: appointment.email,
             to_name: appointment.name,
             appointment_date: appointment.date,
+            appointment_time: appointment.time,
             amount: amount,
         };
 
@@ -25,7 +26,7 @@ const PaymentQR = ({ appointment, amount, onSuccess }) => {
 
     const sendMessage = () => {
         // Simulate sending WhatsApp/SMS message
-        console.log(`Message sent to ${appointment.phone}: Appointment confirmed for ${appointment.name} on ${appointment.date}. Amount paid: ₹${amount}`);
+        console.log(`Message sent to ${appointment.phone}: Appointment confirmed for ${appointment.name} on ${appointment.date} at ${appointment.time}. Amount paid: ₹${amount}`);
         alert(`Message sent to ${appointment.phone} ✅`);
     };
 
@@ -55,6 +56,7 @@ const PaymentQR = ({ appointment, amount, onSuccess }) => {
                 <p className="text-sm">Email: {appointment.email}</p>
                 <p className="text-sm">Phone: {appointment.phone}</p>
                 <p className="text-sm">Date: {appointment.date}</p>
+                <p className="text-sm">Time: {appointment.time}</p>
             </div>
             {/* Demo button - replace with real payment integration */}
             <button
