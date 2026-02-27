@@ -28,7 +28,7 @@ const AIchat = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center  p-4">
       {/* About AIchatBot Section */}
       <div className="mb-8 text-center animate-fade-in-down">
         <h1 className="text-4xl font-bold text-indigo-700 mb-2 drop-shadow-md">
